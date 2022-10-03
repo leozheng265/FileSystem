@@ -6,8 +6,8 @@ This project implements a FAT-based file system which is composed of four consec
 
 ## Building the Project
 
-- This project is built to be used in linux environment only.
-- To build the project simply run “make” command in apps directory.
+- This project is to run in linux environment only.
+- To build the project simply run “make” command in the apps directory.
 
 ## Testing the Project
 
