@@ -7,14 +7,21 @@ This project implements a FAT-based file system which is composed of four consec
 ## Building the Project
 
 - This project is to run in linux environment only.
-- To build the project simply run “make” command in the apps directory.
+- To build the project go into the apps directory and run:
+    ```bash
+    make
+    ```
+- To see details about compilation, run:
+    ```bash
+    make V=1
+    ```
 
 ## Testing the Project
 
 - To create a new virtual disk:
     
     ```bash
-    ./fs_make.x disk.fs 4096
+    ./fs_make.x disk.fs 4092
     ```
     
 - To get information from the virtual disk:
@@ -33,7 +40,7 @@ This project implements a FAT-based file system which is composed of four consec
     
     ```bash
     echo "This is a test message" > 1.txt
-    echo "This a second test message" > 2.txt
+    echo "This is a second test message" > 2.txt
     ./test_fs.x add disk.fs 1.txt
     ./test_fs.x add disk.fs 2.txt
     ```
