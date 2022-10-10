@@ -62,3 +62,6 @@ This project implements a FAT-based file system which is composed of four consec
     ```bash
     ./test_fs.x stat disk.fs 2.txt
     ```
+    
+- Video demo link: 
+    https://youtu.be/YmFOznn4Xas
