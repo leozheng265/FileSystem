@@ -4,6 +4,10 @@
 
 This project implements a FAT-based file system which is composed of four consecutive logical parts, including the Superblock, the File Allocation Table, the Root directory and the Data blocks.
 
+## Demo
+
+https://user-images.githubusercontent.com/61644743/195504070-6c2ee65b-412e-49f5-8e61-9c51f3fbadc2.mp4
+
 ## Building the Project
 
 - This project is to run in linux environment only.
